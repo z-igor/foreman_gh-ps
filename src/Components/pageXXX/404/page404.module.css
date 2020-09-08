@@ -1,0 +1,16 @@
+.errorPage h1 {
+    color: silver;
+    font-size: 14em;
+    line-height: 1;
+    text-align: center;
+}
+
+.errorPage span {
+    color: #dbdb00;
+}
+
+.errorPage p {
+    margin: 10px 0;
+    font-size: 1em;
+    text-align: center;
+}

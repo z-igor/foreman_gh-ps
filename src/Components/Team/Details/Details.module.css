@@ -1,0 +1,55 @@
+.details {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.details>div {
+    line-height: 2;
+    padding-left: 25px;
+}
+
+.details>div p {
+    width: 100%;
+}
+
+.detailsDef>p {
+    display: inline;
+    padding-right: 40px;
+}
+
+.details span {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+
+.interaction {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.interaction>div {
+    margin: 0 10px 10px 10px;
+}
+
+.interaction>div:last-child {
+    margin-bottom: 0;
+}
+
+.interaction button {
+    font-size: 1em;
+}
+
+@media screen and (max-width: 480px) {
+    .details {
+        justify-content: space-around;
+    }
+
+    .details>div {
+        padding-left: 0;
+    }
+}

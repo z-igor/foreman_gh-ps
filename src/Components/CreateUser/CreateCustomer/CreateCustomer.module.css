@@ -1,0 +1,35 @@
+.body {
+    background-color: #fff;
+    min-width: 370px;
+    max-width: 600px;
+    width: 40vw;
+
+    margin: 0 auto;
+    padding: 10px;
+
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.body h1 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.content {
+    width: 100%;
+}
+
+.UIButton {
+    display: block;
+    text-align: right;
+
+    margin-top: 30px;
+}
+
+.UIButton a {
+    display: inline-block;
+}

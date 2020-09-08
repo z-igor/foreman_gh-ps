@@ -1,0 +1,30 @@
+.container {
+    flex: 1 1;
+}
+
+.body {
+    padding: 10px 0;
+}
+
+/* .content {} */
+
+.cover {
+    display: inline-block;
+    width: 220px;
+    height: 150px;
+    position: relative;
+    margin-right: 10px;
+
+    overflow: hidden;
+}
+
+.cover img {
+    position: absolute;
+    height: 100%;
+    /* left: -25%; */
+}
+
+
+@media all and (max-width: 1220px) {
+    /* .container {} */
+}

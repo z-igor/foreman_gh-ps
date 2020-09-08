@@ -1,0 +1,140 @@
+.rows {
+    width: 100%;
+}
+
+.rowsD {
+    margin-bottom: 10px;
+    height: initial;
+}
+
+.rowsD td {
+    vertical-align: top;
+}
+
+.rowsD:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.title,
+.feedback {
+    min-width: 150px;
+    width: 17vw;
+}
+
+.people,
+.rating,
+.docs {
+    min-width: 60px;
+    width: 4vw;
+}
+
+.location {
+    min-width: 150px;
+    width: 16vw;
+}
+
+.rating {
+    font-weight: bold;
+}
+
+.title div {
+    display: flex;
+}
+
+.title div p {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.tRow {
+    flex-grow: 1;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+    align-items: flex-start;
+
+    margin-bottom: 15px;
+}
+
+.tRow:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.tRow>div {
+    flex-grow: 1;
+}
+
+.tContent>div {
+    overflow-x: auto;
+}
+
+.titleCell,
+.feedbackCell {
+    min-width: 150px;
+    width: 17vw;
+}
+
+.peopleCell,
+.ratingCell,
+.docsCell {
+    min-width: 60px;
+    width: 5vw;
+}
+
+.locationCell {
+    min-width: 150px;
+    width: 15vw;
+}
+
+.titleCell p,
+.ratingCell {
+    font-weight: bold;
+}
+
+.titleCell>div {
+    display: flex;
+}
+
+.titleCell>div p {
+    margin-left: 10px
+}
+
+.avatar {
+    flex: 0 0 50px;
+    width: 50px;
+}
+
+.avatar img {
+    display: block;
+    width: 100%;
+    border-radius: 50px;
+    opacity: 0.3;
+}
+
+.avatarLetter {
+    flex: 0 0 50px;
+
+    width: 50px;
+    height: 50px;
+
+    border: .5px solid #999;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+
+    text-align: center;
+
+    font-size: 1.6em;
+    overflow: hidden;
+}
+
+.avatarLetter p {
+    display: inline-block;
+    vertical-align: middle;
+
+    font-weight: normal;
+    margin: 0 !important;
+}

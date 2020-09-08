@@ -1,0 +1,10 @@
+/* .container {} */
+
+.body {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.content {
+    width: 100%;
+}
