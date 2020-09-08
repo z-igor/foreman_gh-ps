@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0cfb779f06a91fcf59aa0d80eadec3c2",
+    "revision": "6449a262196e095105d2dd3fe3d0468d",
     "url": "/foreman_gh-ps/index.html"
   },
   {
-    "revision": "6610dcf14eae831f7d31",
-    "url": "/foreman_gh-ps/static/css/main.d1aed2c1.chunk.css"
+    "revision": "a0f48daff0e95b1dd639",
+    "url": "/foreman_gh-ps/static/css/main.691343fb.chunk.css"
   },
   {
-    "revision": "ce333454b36e8d33b0db",
-    "url": "/foreman_gh-ps/static/js/2.b6bf243b.chunk.js"
+    "revision": "3e79f643ce48fe694116",
+    "url": "/foreman_gh-ps/static/js/2.8e63399e.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/foreman_gh-ps/static/js/2.b6bf243b.chunk.js.LICENSE.txt"
+    "url": "/foreman_gh-ps/static/js/2.8e63399e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6610dcf14eae831f7d31",
-    "url": "/foreman_gh-ps/static/js/main.b8aba2a6.chunk.js"
+    "revision": "a0f48daff0e95b1dd639",
+    "url": "/foreman_gh-ps/static/js/main.b04c539a.chunk.js"
   },
   {
     "revision": "a2e1b503c06382f45095",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/foreman_gh-ps/static/media/avatarTeam.165c5992.png"
   },
   {
-    "revision": "013825018c8e63383ef5a409a21327dd",
-    "url": "/foreman_gh-ps/static/media/logo.01382501.svg"
+    "revision": "9ba1b51c1447d19b0fc0c37422255817",
+    "url": "/foreman_gh-ps/static/media/logo.9ba1b51c.svg"
   },
   {
     "revision": "580b9bc9ce8f36172af36f7913cc53de",

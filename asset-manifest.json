@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/foreman_gh-ps/static/css/main.d1aed2c1.chunk.css",
-    "main.js": "/foreman_gh-ps/static/js/main.b8aba2a6.chunk.js",
-    "main.js.map": "/foreman_gh-ps/static/js/main.b8aba2a6.chunk.js.map",
+    "main.css": "/foreman_gh-ps/static/css/main.691343fb.chunk.css",
+    "main.js": "/foreman_gh-ps/static/js/main.b04c539a.chunk.js",
+    "main.js.map": "/foreman_gh-ps/static/js/main.b04c539a.chunk.js.map",
     "runtime-main.js": "/foreman_gh-ps/static/js/runtime-main.c212d72c.js",
     "runtime-main.js.map": "/foreman_gh-ps/static/js/runtime-main.c212d72c.js.map",
-    "static/js/2.b6bf243b.chunk.js": "/foreman_gh-ps/static/js/2.b6bf243b.chunk.js",
-    "static/js/2.b6bf243b.chunk.js.map": "/foreman_gh-ps/static/js/2.b6bf243b.chunk.js.map",
+    "static/js/2.8e63399e.chunk.js": "/foreman_gh-ps/static/js/2.8e63399e.chunk.js",
+    "static/js/2.8e63399e.chunk.js.map": "/foreman_gh-ps/static/js/2.8e63399e.chunk.js.map",
     "index.html": "/foreman_gh-ps/index.html",
-    "precache-manifest.a7e897dd4c67d803d14c73992b7dc78e.js": "/foreman_gh-ps/precache-manifest.a7e897dd4c67d803d14c73992b7dc78e.js",
+    "precache-manifest.2420e3c7c34a156816d7fdae057e68de.js": "/foreman_gh-ps/precache-manifest.2420e3c7c34a156816d7fdae057e68de.js",
     "service-worker.js": "/foreman_gh-ps/service-worker.js",
-    "static/css/main.d1aed2c1.chunk.css.map": "/foreman_gh-ps/static/css/main.d1aed2c1.chunk.css.map",
-    "static/js/2.b6bf243b.chunk.js.LICENSE.txt": "/foreman_gh-ps/static/js/2.b6bf243b.chunk.js.LICENSE.txt",
+    "static/css/main.691343fb.chunk.css.map": "/foreman_gh-ps/static/css/main.691343fb.chunk.css.map",
+    "static/js/2.8e63399e.chunk.js.LICENSE.txt": "/foreman_gh-ps/static/js/2.8e63399e.chunk.js.LICENSE.txt",
     "static/media/avatarTeam.png": "/foreman_gh-ps/static/media/avatarTeam.165c5992.png",
-    "static/media/logo.svg": "/foreman_gh-ps/static/media/logo.01382501.svg",
+    "static/media/logo.svg": "/foreman_gh-ps/static/media/logo.9ba1b51c.svg",
     "static/media/notification.svg": "/foreman_gh-ps/static/media/notification.580b9bc9.svg",
     "static/media/triangle.svg": "/foreman_gh-ps/static/media/triangle.0707e670.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c212d72c.js",
-    "static/js/2.b6bf243b.chunk.js",
-    "static/css/main.d1aed2c1.chunk.css",
-    "static/js/main.b8aba2a6.chunk.js"
+    "static/js/2.8e63399e.chunk.js",
+    "static/css/main.691343fb.chunk.css",
+    "static/js/main.b04c539a.chunk.js"
   ]
 }
