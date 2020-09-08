@@ -1,6 +1,8 @@
-# Alex foreman [Тап](https://z-igor.github.io/foreman_gh-ps/#/)
+# Alex foreman
 ### Pre-alpha версия
-Называется "Алексеич бригадир".
+Называется "Алексеич бригадир" [Клик](https://z-igor.github.io/foreman_gh-ps/#/).
+
+[Ссылка](https://spathochy920970.invisionapp.com/public/prototype/sketvy4v1000l8e01llkrrp94) на inVision.
 
 Похожий функционал и даже больше выполняет _Propetrovich_, вдохновлен был этим сервисом.
 Проект/сервис преследует цель помочь бригадирам, а именно командам, предоставлять свои услуги. Бригадир выступает лидером команды, он тут главный!
