@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, HashRouter } from 'react-router-dom';
 
 import './App.css';
 
@@ -18,7 +18,7 @@ import PersonalPageContainer from './Components/PersonalPage/PersonalPage';
 
 function App(props) {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="app">
         <HeaderContainer />
         <Route exact path="/" render={() => (
@@ -40,7 +40,7 @@ function App(props) {
         />
         <Route path="/404" component={page404} />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
