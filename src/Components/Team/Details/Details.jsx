@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../../UI";
+import Button from "../../UI/Button/Button";
 
 import mcss from "./Details.module.css";
 

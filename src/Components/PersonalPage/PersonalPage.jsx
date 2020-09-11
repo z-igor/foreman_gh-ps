@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
+import { useSelector } from 'react-redux';
 import Anchors from './Anchors/Anchors';
 import PpPortfolio from './PpPortfolio/PpPortfolio';
 import AllDocuments from './AllDocuments/AllDocuments';
 import Feedback from './Feedback/Feedback';
+import Button from '../UI/Button/Button';
 
 import avatarUser from '../../image/avatarUser.jpg';
 import mcss from './PersonalPage.module.css';
-import { useSelector } from 'react-redux';
-import { Button } from '../UI';
 
 export default function PersonalPage({ match, ...props }) {
     const teamData = useSelector((state) => state.teamReducer.teamData);

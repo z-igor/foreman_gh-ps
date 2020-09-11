@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter, Route, HashRouter } from 'react-router-dom';
+import { Route, HashRouter } from 'react-router-dom';
+// import { BrowserRouter } from 'react-router-dom';
 
 import './App.css';
 
@@ -8,7 +9,7 @@ import AboutContainer from './Components/About/About';
 import ListTeam from './Components/ListTeam/ListTeam';
 import TeamContainer from './Components/Team/TeamContainer';
 import CreateUser from './Components/CreateUser/CreateUser';
-import { UI } from './Components/UI';
+import { UI } from './Components/UI/UI';
 import CreateMasterContainer from './Components/CreateUser/CreateMaster/CreateMasterContainer';
 import CreateLeadMasterContainer from './Components/CreateUser/CreateLeadMaster/CreateLeadMasterContainer';
 import CreateCustomerContainer from './Components/CreateUser/CreateCustomer/CreateCustomerContainer';

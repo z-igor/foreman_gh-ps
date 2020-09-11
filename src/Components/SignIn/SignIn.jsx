@@ -1,10 +1,8 @@
 import React from "react";
-// import { Redirect } from 'react-router-dom';
 import { Field, reduxForm } from "redux-form";
 import { maxLength30, minLength8, required } from "../../tools/validators";
-import { Input } from "../UI";
+import { Input } from "../UI/FormFields/FormFields";
 import mcss from "./SignIn.module.css";
-// import { useState } from "react";
 
 let LoginForm = (props) => {
     return (

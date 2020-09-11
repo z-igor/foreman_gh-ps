@@ -3,17 +3,18 @@ import { NavLink } from 'react-router-dom';
 import { reduxForm, Field } from 'redux-form';
 import { required, maxLength30, minLength8 } from '../../../tools/validators';
 
-import {
-    Input,
-    Button,
-} from '../../UI';
+import { Input } from '../../UI/FormFields/FormFields';
+import Button from '../../UI/Button/Button';
 
 import mcss from './CreateMaster.module.css';
 
 let CreateMasterForm = (props) => {
     return (
-        <form onSubmit={props.handleSubmit} 
-            onKeyPress={(e) => { props.onKeyPress(e); }}>
+        <form
+            onSubmit={props.handleSubmit}
+            onKeyPress={(e) => {
+                props.onKeyPress(e);
+            }}>
             <div className={mcss.content}>
                 <Field
                     placeholder="Ник"
@@ -56,38 +57,37 @@ let CreateMasterForm = (props) => {
                 />
             </div>
             <div className={mcss.UIButton}>
-                <NavLink to='/registration/leadmaster'>
-                    <Button view='secondary' value='Создать бригаду' />
+                <NavLink to="/registration/leadmaster">
+                    <Button view="secondary" value="Создать бригаду" />
                 </NavLink>
-                <Button view='primary' value='Регистрация' />
+                <Button view="primary" value="Регистрация" />
                 {/* <NavLink to='/band/0'> */}
                 {/* </NavLink> */}
             </div>
         </form>
-    )
-}
+    );
+};
 
 CreateMasterForm = reduxForm({ form: 'createMaster' })(CreateMasterForm);
 
-const CreateMaster = (props) => {
+export default function CreateMaster (props) {
     let onKeyEnter = (e) => {
         if (e.key === 'Enter') {
             e.preventDefault();
         }
-    }
+    };
 
     let onSubmit = (data) => {
         props.createNewMaster(data);
         data.label = 'Мастер';
         props.onAuth(data);
-    }
-    return (<main>
-        <div className={mcss.body}>
-            <h1>Мастер</h1>
-            <CreateMasterForm onSubmit={onSubmit} onKeyPress={onKeyEnter} />
-        </div>
-    </main>
-    )
-}
-
-export default CreateMaster;
+    };
+    return (
+        <main>
+            <div className={mcss.body}>
+                <h1>Мастер</h1>
+                <CreateMasterForm onSubmit={onSubmit} onKeyPress={onKeyEnter} />
+            </div>
+        </main>
+    );
+};

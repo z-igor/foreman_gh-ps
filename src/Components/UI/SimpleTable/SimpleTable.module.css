@@ -1,0 +1,79 @@
+.table {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table>a {
+    text-decoration: none;
+}
+
+.tRow {
+    flex-grow: 1;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+    align-items: flex-start;
+
+    /* margin-bottom: 15px; */
+}
+
+.tHeader {
+    padding-bottom: 10px;
+}
+
+.tHeader p {
+    font-size: .6em;
+    font-weight: bold;
+    color: silver;
+}
+
+.tRow>div {
+    flex-grow: 1;
+}
+
+.tContent {
+    margin-bottom: 15px;
+}
+
+.tContent>div {
+    overflow-x: auto;
+}
+
+.titleCell,
+.feedbackCell {
+    min-width: 150px;
+    width: 17vw;
+}
+
+.peopleCell,
+.ratingCell,
+.docsCell {
+    min-width: 60px;
+    width: 5vw;
+}
+
+.locationCell {
+    min-width: 150px;
+    width: 15vw;
+}
+
+.titleCell p,
+.ratingCell {
+    font-weight: bold;
+}
+
+.titleCell>div {
+    display: flex;
+}
+
+.titleCell>div p {
+    margin-left: 10px
+}
+
+.emptyListTeam {
+    color: silver;
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+}

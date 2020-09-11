@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { SimpleTable } from './../UI';
+import React, { useState } from 'react';
+import { SimpleTable } from './../UI/SimpleTable/SimpleTable';
 
 import mcss from './Main.module.css';
 
-const Main = ({ teamData, ...props }) => {
+export default function Main({ teamData, ...props }) {
     let [teamCount, setTeamCount] = useState(0);
 
- /*    useEffect((...effect) => {
+    /*    useEffect((...effect) => {
         setTeamCount((prevState) => {
             console.log('useEffect: prevState =', prevState);
             return prevState;
@@ -56,5 +56,3 @@ const Main = ({ teamData, ...props }) => {
         </div>
     );
 };
-
-export default Main;

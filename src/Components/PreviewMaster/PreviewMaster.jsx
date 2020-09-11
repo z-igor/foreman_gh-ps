@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useSelector, shallowEqual, useDispatch } from "react-redux";
 import mcss from "./PreviewMaster.module.css";
 import avatarUser from "../../image/avatarUser.jpg";
-import { ModalWindow } from "../UI";
+import ModalWindow from "../UI/Modal/Modal";
 
 import { removeMasterAC } from "../../redux/teams-reducer";
 

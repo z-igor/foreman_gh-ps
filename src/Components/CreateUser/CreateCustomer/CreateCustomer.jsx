@@ -1,12 +1,9 @@
 import React from 'react';
-// import { NavLink } from 'react-router-dom';
 import { reduxForm, Field } from 'redux-form';
 import { required, maxLength30, minLength8, minLength10, maxLength12, number } from '../../../tools/validators';
 
-import {
-    Input,
-    Button
-} from '../../UI';
+import { Input } from '../../UI/FormFields/FormFields';
+import Button from '../../UI/Button/Button';
 
 import mcss from './CreateCustomer.module.css';
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from '../../logo.svg';
-// import { useDispatch } from "react-redux";
 import { NavLink } from 'react-router-dom';
-import { Button, DropList } from '../UI';
+import Button from '../UI/Button/Button';
+import DropList from '../UI/DropList/DropList';
 
 import mcss from './Header.module.css';
 import notificationIcon from '../../image/notification.svg';

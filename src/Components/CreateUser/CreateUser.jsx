@@ -1,33 +1,31 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-// import { connect } from 'react-redux';
 
 import mcss from './CreateUser.module.css';
 
-const CreateUser = (props) => {
-    return (<main>
-        <div className={mcss.body}>
-            <h1>Вы</h1>
-            <div className={mcss.content}>
-                <div className={mcss.UIbutton}>
-                    <NavLink to='/registration/master'>
-                        <button className={mcss.UIbuttonDefault}>
-                            Мастер
-                        </button>
-                    </NavLink>
-                </div>
-                <span className={mcss.divider}>или</span>
-                <div className={mcss.UIbutton}>
-                    <NavLink to='/registration/customer'>
-                        <button className={mcss.UIbuttonDefault}>
-                            Клиент
-                        </button>
-                    </NavLink>
+export default function CreateUser(props) {
+    return (
+        <main>
+            <div className={mcss.body}>
+                <h1>Вы</h1>
+                <div className={mcss.content}>
+                    <div className={mcss.UIbutton}>
+                        <NavLink to="/registration/master">
+                            <button className={mcss.UIbuttonDefault}>
+                                Мастер
+                            </button>
+                        </NavLink>
+                    </div>
+                    <span className={mcss.divider}>или</span>
+                    <div className={mcss.UIbutton}>
+                        <NavLink to="/registration/customer">
+                            <button className={mcss.UIbuttonDefault}>
+                                Клиент
+                            </button>
+                        </NavLink>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
-    )
+        </main>
+    );
 }
-
-export default CreateUser;

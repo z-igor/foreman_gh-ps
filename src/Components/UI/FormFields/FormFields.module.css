@@ -1,0 +1,119 @@
+.fieldInput,
+.fieldInputNumber {
+    margin-bottom: 10px;
+}
+
+.fieldInput p,
+.fieldInputNumber>span {
+    font-size: 0.8em;
+}
+
+.fieldInput p {
+    margin-bottom: 5px;
+}
+
+.fieldInput>input,
+.fieldInputNumber>input {
+    border: 1px solid grey;
+    padding: 4px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.fieldInput>input {
+    min-width: 200px;
+    width: 100%;
+}
+
+.fieldInputError input {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.fieldInputSuccess input {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+.fieldInput span.error {
+    display: block;
+
+    color: red;
+    font-size: 0.7em;
+}
+
+.fieldInputNumber {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fieldInputNumber>span {
+    margin-right: 10px;
+}
+
+.checkbox,
+.radiobox {
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    display: block;
+    cursor: pointer;
+}
+
+.checkbox input,
+.radiobox input {
+    margin-right: 10px;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+
+.errorRadiobox {
+    color: red;
+}
+
+/* 
+.docsCheck,
+.masterCheck,
+.numberPeople {
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
+.docsCheck input,
+.masterCheck input {
+    margin-right: 10px;
+    vertical-align: middle;
+    border-radius: 2px;
+
+}
+
+.numberPeople input {
+    margin-left: 10px;
+    max-width: 45px;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid grey;
+}
+
+.numberPeople input::-webkit-input-placeholder {
+    text-align: left;
+}
+
+.numberPeople input::-moz-placeholder {
+    text-align: left;
+}
+
+.numberPeople input:-ms-input-placeholder {
+    text-align: left;
+}
+
+.numberPeople input::-ms-input-placeholder {
+    text-align: left;
+}
+
+.numberPeople input::placeholder {
+    text-align: left;
+}
+ */

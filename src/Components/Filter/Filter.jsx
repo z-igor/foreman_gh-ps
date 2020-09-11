@@ -1,7 +1,8 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { Field, reduxForm } from "redux-form";
-import { Checkbox, Input, Button, InputNumber } from "../UI";
+import Button from "../UI/Button/Button";
+import { Checkbox, Input, InputNumber } from "../UI/FormFields/FormFields";
 import { applyFilter, resetFilter } from "../../redux/actions";
 
 import mcss from "./Filter.module.css";

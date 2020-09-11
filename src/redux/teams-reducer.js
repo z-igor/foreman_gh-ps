@@ -481,7 +481,6 @@ export const teamReducer = (state = initState, action) => {
             let {
                 name,
                 specialty,
-                masterId,
                 location,
                 teamName
             } = action.data;
