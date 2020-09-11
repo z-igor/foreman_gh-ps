@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6449a262196e095105d2dd3fe3d0468d",
+    "revision": "339bcc33fcbe091123d40912112aacd0",
     "url": "/foreman_gh-ps/index.html"
   },
   {
-    "revision": "a0f48daff0e95b1dd639",
-    "url": "/foreman_gh-ps/static/css/main.691343fb.chunk.css"
+    "revision": "158d5fc2694e94a6b449",
+    "url": "/foreman_gh-ps/static/css/main.ec62146a.chunk.css"
   },
   {
-    "revision": "3e79f643ce48fe694116",
-    "url": "/foreman_gh-ps/static/js/2.8e63399e.chunk.js"
+    "revision": "a914a96bbb852f77ac59",
+    "url": "/foreman_gh-ps/static/js/2.4493ef3f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/foreman_gh-ps/static/js/2.8e63399e.chunk.js.LICENSE.txt"
+    "url": "/foreman_gh-ps/static/js/2.4493ef3f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a0f48daff0e95b1dd639",
-    "url": "/foreman_gh-ps/static/js/main.b04c539a.chunk.js"
+    "revision": "158d5fc2694e94a6b449",
+    "url": "/foreman_gh-ps/static/js/main.4e2e7707.chunk.js"
   },
   {
     "revision": "a2e1b503c06382f45095",

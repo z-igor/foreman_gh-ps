@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/foreman_gh-ps/precache-manifest.2420e3c7c34a156816d7fdae057e68de.js"
+  "/foreman_gh-ps/precache-manifest.a0951804551fecc27a5dcefba9f95511.js"
 );
 
 self.addEventListener('message', (event) => {
