@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useMemo } from 'react';
 import { useSelector } from 'react-redux';
 import { formValueSelector } from 'redux-form';
 import { TableRows } from './TableRows/TableRows';
@@ -78,9 +78,9 @@ export function SimpleTable({ setCount, columnTitles, data, ...props }) {
 
     let { filter } = useSelector((state) => state.teamReducer);
     let { resetFilter } = useSelector((state) => state.teamReducer);
-    let _data = useRef(data.map((m) => ({ ...m })));
+    let _data = useMemo(() => data.map((m) => ({ ...m })), [data]);
 
-    _data.current = _data.current.map((d) => {
+    _data = _data.map((d) => {
         if (Array.isArray(d.profileTeam)) {
             d.people = d.profileTeam.reduce((sum, currentElm) => {
                 return sum + currentElm.numb.length;
@@ -131,17 +131,17 @@ export function SimpleTable({ setCount, columnTitles, data, ...props }) {
     }; */
 
     useEffect(() => {
-        setCount(_data.current.length);
+        setCount(_data.length);
 
         if (filter) {
-            _data.current = filterOut(_data.current, filterVals);
+            _data = filterOut(_data, filterVals);
         }
         if (resetFilter) {
-            _data.current = data.map((m) => ({ ...m }));
+            _data = data.map((m) => ({ ...m }));
         }
     }, [filterVals, _data]);
 
-    if (!_data.current.length) {
+    if (!_data.length) {
         return (
             <div className={mcss.emptyListTeam}>
                 <h3>Бригад нет</h3>
@@ -158,7 +158,7 @@ export function SimpleTable({ setCount, columnTitles, data, ...props }) {
                     </div>
                 ))}
             </div>
-            {_data.current.map((t, i) => (
+            {_data.map((t, i) => (
                 <TableRows {...t} key={i} />
             ))}
         </div>
